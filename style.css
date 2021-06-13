@@ -83,7 +83,7 @@ h3 {
 .player-controls {
   position: relative;
   top: -15px;
-  left: 120px;
+  left: 120px;;
   width: 200px;
 }
 
@@ -91,6 +91,12 @@ h3 {
   font-size: 30px;
   color: rgb(129, 129, 129);
   margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fas:hover{
+  filter: brightness(80%);
 }
 
 .main-button {
